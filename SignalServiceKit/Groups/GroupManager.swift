@@ -31,8 +31,8 @@ public class GroupManager: NSObject {
     public static let maxGroupNameEncryptedByteCount: Int = 1024
     public static let maxGroupNameGlyphCount: Int = 32
 
-    public static let maxGroupDescriptionEncryptedByteCount: Int = 8192
-    public static let maxGroupDescriptionGlyphCount: Int = 480
+    public static let maxGroupDescriptionEncryptedByteCount: Int = 65536
+    public static let maxGroupDescriptionGlyphCount: Int = 3840
 
     // Epoch 1: Group Links
     // Epoch 2: Group Description
